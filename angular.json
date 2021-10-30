@@ -51,7 +51,7 @@
           }
         }
       },
-      "tags": ["type:app"]
+      "tags": ["type:app", "scope:api"]
     },
     "frontend-admin": {
       "projectType": "application",
