@@ -37,3 +37,9 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# project env
+.env
+/apps/backend/api/src/environments/
+/apps/frontend/admin/src/environments/
+/apps/frontend/client/src/environments/
