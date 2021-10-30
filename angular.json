@@ -51,7 +51,7 @@
           }
         }
       },
-      "tags": []
+      "tags": ["type:app"]
     },
     "frontend-admin": {
       "projectType": "application",
@@ -118,7 +118,10 @@
               "port": 4201
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "proxyConfig": "apps/frontend/admin/proxy.conf.json"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -141,7 +144,7 @@
           }
         }
       },
-      "tags": ["scope:admin"]
+      "tags": ["scope:admin", "type:app"]
     },
     "frontend-admin-e2e": {
       "root": "apps/frontend/admin-e2e",
@@ -262,7 +265,7 @@
           }
         }
       },
-      "tags": ["scope:client"]
+      "tags": ["scope:client", "type:app"]
     },
     "frontend-client-e2e": {
       "root": "apps/frontend-client-e2e",
